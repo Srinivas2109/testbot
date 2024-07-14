@@ -12,7 +12,7 @@ load_dotenv()
 # Define conversation template
 chat_template = """
 **You:** {user_input}
-**Gemma-2b:** {model_response}
+**Gemma-7b:** {model_response}
 """
 
 # Load pre-trained model and tokenizer
